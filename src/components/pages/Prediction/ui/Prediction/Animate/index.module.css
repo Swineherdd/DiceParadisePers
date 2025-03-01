@@ -1,0 +1,10 @@
+.container {
+	max-width: var(--container-width);
+	margin: 0 auto;
+	min-height: 200px;
+}
+
+.animateImage {
+	display: flex;
+	justify-content: center;
+}

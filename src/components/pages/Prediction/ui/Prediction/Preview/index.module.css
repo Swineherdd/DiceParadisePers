@@ -1,0 +1,15 @@
+.container {
+	min-height: 200px;
+	max-width: var(--container-width);
+	margin: 0 auto;
+}
+
+.magicBallBtn {
+	position: relative;
+	margin: 0 auto;
+}
+.magicBallBtn > img:last-child {
+	position: absolute;
+	bottom: -5px;
+	left: -53px;
+}

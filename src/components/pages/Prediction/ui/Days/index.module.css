@@ -1,0 +1,43 @@
+.mainText {
+	font-family: PoppinsB;
+}
+.daysGroup {
+	margin: 40px 0 0 0;
+	display: flex;
+	justify-content: space-between;
+}
+.daysItem {
+	position: relative;
+	width: 42px;
+	height: 42px;
+	background-color: var(--dark-blue);
+	color: var(--main-black);
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	cursor: default;
+}
+.daysItem::before {
+	content: '';
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	translate: -50% -50%;
+	width: 70%;
+	height: 70%;
+	border-radius: 50%;
+	background-image: radial-gradient(var(--main-white), var(--light-grey));
+	z-index: 1;
+}
+.daysItem.active {
+	border: 1px solid var(--main-white);
+	background-image: var(--item-active-gradient);
+}
+.daysItem.active::before {
+	border: 2px solid var(--dark-green);
+}
+.daysItem > p {
+	position: relative;
+	z-index: 2;
+}

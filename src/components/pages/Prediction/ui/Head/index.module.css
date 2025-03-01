@@ -1,0 +1,15 @@
+.container {
+	max-width: var(--container-width);
+	margin: 0 auto;
+}
+.dayTitle {
+	text-align: center;
+	font-size: 80px;
+	text-shadow: 0 0 10px var(--main-black);
+}
+.daySubtitle {
+	white-space: nowrap;
+	text-align: center;
+	margin: 20px auto 0 auto;
+	max-width: calc(var(--container-width) - 20px);
+}

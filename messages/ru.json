@@ -1,0 +1,10 @@
+{
+	"predictionPage": {
+		"title": "день",
+		"subtitle": "каждый день бонус и предсказание",
+		"todayBonus": ["Сегодня бонус", "Увеличь, заходя ежедневно!"],
+		"collectBonus": "Собрать бонусы",
+		"passivePredictionDescription": "придумай запрос и нажми на шар",
+		"activePredictionDescription": "Ваше предсказание сегодня:"
+	}
+}

@@ -1,0 +1,100 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer base {
+	@font-face {
+		font-family: 'PoppinsB';
+		src: url('/fonts/Poppins-Bold.ttf');
+		font-weight: 700;
+		font-style: normal;
+		font-display: swap;
+	}
+	@font-face {
+		font-family: 'MontserratB';
+		src: url('/fonts/Montserrat-Bold.ttf');
+		font-weight: 700;
+		font-style: normal;
+		font-display: swap;
+	}
+}
+
+@font-face {
+	font-family: 'PoppinsB';
+	src: url('/fonts/Poppins-Bold.ttf');
+	font-weight: 700;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: 'MontserratB';
+	src: url('/fonts/Montserrat-Bold.ttf');
+	font-weight: 700;
+	font-style: normal;
+	font-display: swap;
+}
+
+:root {
+	--background: #ffffff;
+	--foreground: #171717;
+
+	--main-white: #fff;
+	--main-black: #000;
+	--dark-green: #33591b;
+	--dark-blue: #20569a;
+	--light-grey: #ccd0d6;
+	--opacity-white: rgba(255, 255, 255, 0.8);
+	--item-active-gradient: linear-gradient(
+		70deg,
+		#9ed459,
+		#94c54f,
+		#94c54f,
+		#94c54f,
+		#4f771f
+	);
+
+	--container-width: 320px;
+}
+
+@media (prefers-color-scheme: dark) {
+	:root {
+		--background: #0a0a0a;
+		--foreground: #ededed;
+	}
+}
+html {
+	overflow-x: clip;
+	overflow-y: auto;
+}
+
+body {
+	min-height: 100vh;
+	height: 1px;
+	color: var(--foreground);
+	background-color: rgb(236 228 207 / 1);
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+@layer utilities {
+	.text-balance {
+		text-wrap: balance;
+	}
+}
+
+@keyframes bounce {
+	0%,
+	100% {
+		transform: scale(1);
+	}
+	50% {
+		transform: scale(0.9);
+	}
+}
+
+.animate-bounce {
+	animation: bounce 0.3s;
+}
+body {
+	width: 100vw;
+	max-width: 100%;
+	overflow-x: hidden;
+}

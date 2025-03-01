@@ -1,0 +1,43 @@
+.spin_btn {
+	will-change: scale;
+	animation: 1s infinite spinBtn;
+}
+.spin_btn img {
+	will-change: rotate scale;
+	animation: 1.6s infinite magicHat;
+}
+@keyframes spinBtn {
+	0% {
+		scale: 1;
+	}
+	50% {
+		scale: 1.03;
+	}
+	100% {
+		scale: 1;
+	}
+}
+@keyframes magicHat {
+	0% {
+		rotate: 0deg;
+		scale: 1;
+	}
+	20% {
+		rotate: 3deg;
+	}
+	25% {
+		rotate: 0deg;
+	}
+	30% {
+		rotate: 3deg;
+	}
+	50% {
+		scale: 1.04;
+	}
+	80% {
+		rotate: 0deg;
+	}
+	100% {
+		scale: 1;
+	}
+}

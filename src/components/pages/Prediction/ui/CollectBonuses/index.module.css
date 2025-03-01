@@ -1,0 +1,17 @@
+.collectBonusesBtn {
+	margin: 40px 0 0 0;
+	color: var(--main-black);
+	width: 100%;
+	border-radius: 14px;
+	border: 2px solid var(--main-black);
+	background-color: var(--main-white);
+	padding: 15px 25px;
+	box-shadow: 5px 5px 6px 0 var(--main-black);
+	transition: 0.2s ease;
+}
+.collectBonusesBtn:active {
+	box-shadow: none;
+}
+.collectBonusesBtn > p {
+	text-transform: uppercase;
+}

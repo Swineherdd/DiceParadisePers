@@ -1,0 +1,26 @@
+.todayBonus {
+	margin: 40px 0 0 0;
+	color: var(--main-black);
+	width: 100%;
+	padding: 15px 25px;
+	border-radius: 14px;
+	border: 2px solid var(--main-black);
+	background-color: var(--main-white);
+	display: flex;
+	flex-flow: wrap;
+	justify-content: center;
+	text-align: center;
+}
+.todayBonus > span:first-child {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	column-gap: 5px;
+}
+.todayBonus > span:first-child > img {
+	translate: 0 -4px;
+}
+.todayBonus > span:last-child {
+	white-space: nowrap;
+}

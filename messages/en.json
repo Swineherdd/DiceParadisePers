@@ -1,0 +1,10 @@
+{
+	"predictionPage": {
+		"title": "day",
+		"subtitle": "every day free bonus and prediction",
+		"todayBonus": ["Today bonus", "Come back every day to increase!"],
+		"collectBonus": "Collect bonuses",
+		"passivePredictionDescription": "think of a question and click on the ball",
+		"activePredictionDescription": "Your prediction today:"
+	}
+}
